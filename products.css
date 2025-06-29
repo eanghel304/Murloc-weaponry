@@ -1,0 +1,154 @@
+/* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Style the navigation menu */
+nav {
+  background-image: linear-gradient(45deg, rgb(9, 255, 0), rgb(41, 77, 8), rgb(8, 21, 54));
+}
+
+.menu {
+  display: flex;
+  justify-content: left;
+  border-bottom: 30px;
+}
+
+.menu li {
+  position: relative;
+}
+
+.menu a {
+  display: block;
+  color: rgb(0, 0, 0);
+  position: relative;
+  text-align: left;
+  padding: 14px 20px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 30px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+ul {
+  list-style-type: none;
+}
+.menu a:hover {
+  opacity: 0.5;
+}
+
+/* Dropdown container */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-image: linear-gradient(45deg, rgb(9, 255, 0),rgb(20, 36, 77));
+  min-width: 160px;
+  z-index: 1;
+}
+
+.dropdown {
+  text-align: center;
+}
+
+/* Dropdown links */
+.dropdown-content a:hover {
+  color: rgb(0, 0, 0);
+
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+#search-form {
+  display: inline-block;
+  margin-left:20px;
+  position: relative;
+  left: 500px;
+  top: 17px;
+}
+#search-input {
+  padding: 5px;
+  font-size: 16px;
+  border: solid 1px #ccc;
+  border-radius: 4px;
+}
+#search-form button {
+  padding: 5px 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: rgb(20, 36, 77);
+  color: #ffffff;
+  opacity: 0.5;
+}
+#search-form button:hover {
+  color: rgb(0, 0, 0);
+  opacity: 0.5;
+}
+#cart-button {
+  background-color: rgb(19, 29, 71);
+  color: #ffffff;
+  border: none;
+  padding: 5px 15px;
+  cursor: pointer;
+  font-size: 16px;
+  display: flex;
+  position: relative;
+  left: 530px; 
+  top: 17px;
+  opacity: 0.5;
+}
+
+#cart-button:hover {
+  opacity: 0.5
+}
+
+#cart-count {
+  background-color:  rgb(41, 77, 8);
+  border-radius: 50%;
+  color: white;
+  padding: 2px 6px;
+  margin-left: 8px;
+  font-size: 14px;
+}
+footer {
+  background-image: linear-gradient(45deg, rgb(9, 255, 0), rgb(41, 77, 8), rgb(8, 21, 54));
+  color: #000000;
+  text-align: center;
+  padding: 20px 0;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  margin-top: 20px;
+  min-height: 10%;
+  font-size: 25px;
+}
+footer p {
+  position: relative;
+  top: 10px;
+}
+footer .footer-content {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+footer .footer-section {
+  margin: 10px 0;
+}
+footer a {
+  color: #000000;
+  text-decoration: none;
+}
+footer p {
+  margin: 0;
+}
+footer .footer-bottom {
+  margin-top: 20px;
+  font-size: 14px;
+}
