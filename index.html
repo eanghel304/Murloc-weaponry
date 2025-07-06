@@ -60,9 +60,8 @@
         .item button {position: absolute;top: 0;left: 0;background-color: rgba(0, 0, 0, 0.7);font-family: "f Frog Toad";color: rgb(12, 243, 12);border: none;font-size: 1.2rem;cursor: pointer;opacity: 0;transition: opacity 0.3s ease-in-out;}
         .item:hover button {opacity: 1;}
     
-        #marketing {display: grid;grid-template-coumns:50%;grid-column-gap: 1%;font-family: "f Frog Toad";color: rgb(41, 77, 8);font-size: 1rem;}
-        .weekfav {position: relative;width: 50%;height: 50%;overflow: hidden;aspect-ratio:1;margin: 0 0 2rem 0;transform: translateX(-10%)}
-        .weekfav img {z-index: 2;pointer-events: none;transition: transform 0.2s, opacity 0.3s ease;}
+        #marketing {display: grid;grid-template-columns:50%;grid-column-gap: 1%;font-family: "f Frog Toad";color: rgb(41, 77, 8);font-size: 1rem;}
+        .weekfav img {display: grid;grid-template-row:50%;overflow: hidden;aspect-ratio:1;margin: 0 0 2rem 0;z-index: 2;pointer-events: none;transition: transform 0.2s, opacity 0.3s ease;}
         .weekfav button {border: none;cursor: pointer;z-index: 1;opacity: 0;background: transparent;}
         .weekfav img, .weekfav button {object-fit: fill;display: block;position: absolute;top: 0;left: 0;width: 50%;height: 50%;}
         .weekfav:hover img {transform: scale(1.2);}
