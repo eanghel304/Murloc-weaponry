@@ -59,8 +59,8 @@
         .item img, .item button {width: 100%;height: 100%;object-fit: fill;display: block;}
         .item button {position: absolute;top: 0;left: 0;background-color: rgba(0, 0, 0, 0.7);font-family: "f Frog Toad";color: rgb(12, 243, 12);border: none;font-size: 1.2rem;cursor: pointer;opacity: 0;transition: opacity 0.3s ease-in-out;}
         .item:hover button {opacity: 1;}
-
-        #marketing {display: grid;grid-template-columns: 1fr 1fr; padding:10px;}        
+        /*grid container*/
+        #marketing {display: inline-grid;grid-template-columns: 1fr 1fr; column-gap: normal; padding:10px;}        
         #presentation {border: 1px solid black;padding: 10px;font-size: 30px;text-align: center;}
         #information {border: 1px solid black;padding: 10px;font-size: 30px;text-align: center;}
         
@@ -110,10 +110,10 @@
         </div> 
     </div>
     <div id="marketing">
-        <h2>This week's favorite</h2>
         <div>
-                    <img src="Sword1.png">
-                    <button>Take a look!</button>
+            <h2>This week's favorite</h2>
+            <img src="Sword1.png">
+            <button>Take a look!</button>
          <div><h2> d'Artagnan's sword – The Ultimate Swamp Duelist’s Blade!</h2>
                     <p>Glrglgglll! A blade worthy of the greatest Murloc warrior! This finely
               crafted weapon ensures victory with both style and precision.<br>
