@@ -60,7 +60,7 @@
         .item button {position: absolute;top: 0;left: 0;background-color: rgba(0, 0, 0, 0.7);font-family: "f Frog Toad";color: rgb(12, 243, 12);border: none;font-size: 1.2rem;cursor: pointer;opacity: 0;transition: opacity 0.3s ease-in-out;}
         .item:hover button {opacity: 1;}
         /*grid container*/
-        #marketing {display: grid;width: 100%; grid-template-columns: 50% 50%; grid-template-rows: 10% 80%; column-gap: 1rem; grid-template-rows: auto, auto; padding:10px;}        
+        #marketing {display: grid;width: 100%; grid-template-columns: 50% 50%; grid-template-rows: repeat(2, 10% 80%); gap: 5px 10px; padding:10px;}        
         #presentation {border: 1px solid black;padding: 10px;font-size: 30px;text-align: center;}
         #information {border: 1px solid black;padding: 10px;font-size: 30px;text-align: center;}
         
@@ -216,6 +216,7 @@ document.addEventListener('DOMContentLoaded', () => {
     <p>&copy;2025 Protect your swamp. All rights reserved.</p>
 </footer>
 </html>
+
 
 
 
